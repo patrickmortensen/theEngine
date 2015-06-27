@@ -115,6 +115,12 @@
     <Filter Include="Header Files\MFC\Dialogs\Custom Controls\Scroll Bar">
       <UniqueIdentifier>{0892473f-ed2d-428a-8e4e-2f322a358e01}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Engine\Debugging">
+      <UniqueIdentifier>{26560ec0-f19b-4f63-b554-40195f352813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Debugging">
+      <UniqueIdentifier>{f16c46c8-add4-4a6c-87c8-ab9b32dd6b54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="_SourceFiles\resource.h">
@@ -240,6 +246,9 @@
     <ClInclude Include="_SourceFiles\CSkinScrollBar.h">
       <Filter>Header Files\MFC\Dialogs\Custom Controls\Scroll Bar</Filter>
     </ClInclude>
+    <ClInclude Include="DebugWindow.h">
+      <Filter>Header Files\Engine\Debugging</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="_SourceFiles\MainWin.cpp">
@@ -346,6 +355,9 @@
     </ClCompile>
     <ClCompile Include="_SourceFiles\CSkinScrollBar.cpp">
       <Filter>Source Files\MFC\Dialogs\Custom Controls\Scroll Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWindow.cpp">
+      <Filter>Source Files\Engine\Debugging</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

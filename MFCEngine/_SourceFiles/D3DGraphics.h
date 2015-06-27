@@ -29,7 +29,7 @@ public:
 	//METHODS
 	BOOL BeginFrame();
 	BOOL EndFrame();
-
+	
 	void OnResize(int n_width, int n_height, ObjectList* sceneObject, int nObjects);
 
 	//------------------------------------------

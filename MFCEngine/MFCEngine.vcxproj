@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DebugWindow.h" />
     <ClInclude Include="_SourceFiles\Camera.h" />
     <ClInclude Include="_SourceFiles\Character.h" />
     <ClInclude Include="_SourceFiles\Component.h" />
@@ -54,6 +55,7 @@
     <ClInclude Include="_SourceFiles\Vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DebugWindow.cpp" />
     <ClCompile Include="_SourceFiles\Camera.cpp" />
     <ClCompile Include="_SourceFiles\Character.cpp" />
     <ClCompile Include="_SourceFiles\Component.cpp" />
